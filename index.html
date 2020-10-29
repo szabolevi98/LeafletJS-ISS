@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=\, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css" integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA==" crossorigin="" />
+    <script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js" integrity="sha512-QVftwZFqvtRNi0ZyCtsznlKSWOStnDORoefr1enyq5mVL4tmKB3S/EnC3rRJcxCPavG10IcrVGSmPh6Qw5lwrg==" crossorigin=""> </script>
+    <link rel="stylesheet" href="style.css">
+    <title>ISS Current Location</title>
+  </head>
+  <body>
+    <div id="container">
+      <h1>ISS Current Location</h1>
+      <p>
+        <b>Latitude:</b> <span id="lat"></span>°<br/>
+        <b>Longitude:</b> <span id="lon"></span>°
+      </p>
+      <div id="issMap"></div>
+    </div>
+    <script src="iss.js"></script>
+  </body>
+</html>
